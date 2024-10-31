@@ -2,6 +2,7 @@ import time
 import pandas as pd
 from utils import WebScraperUtils
 from selenium.webdriver.common.by import By
+from tqdm import tqdm
 
 
 class ApartmentLinkScraper:
@@ -15,13 +16,13 @@ class ApartmentLinkScraper:
         """Scrape apartment links across multiple pages."""
         base_url = f"https://www.avito.ma/fr/maroc/{self.product}"
 
-        for page in range(1, self.num_pages + 1):
+        for page in tqdm(range(1, self.num_pages + 1)):
             url = base_url if page == 1 else f"{base_url}?o={page}"
             self.utils.driver.get(url)
             time.sleep(2)
 
             apartment_elements = self.utils.driver.find_elements(By.XPATH, "//a[@class='sc-1jge648-0 eTbzNs']")
-            for element in apartment_elements:
+            for element in tqdm(apartment_elements):
                 link = element.get_attribute('href')
                 if link:
                     self.links.append(link)
@@ -48,7 +49,7 @@ class ApartmentDataScraper:
         with open(self.links_path, 'r') as f:
             links = f.readlines()
 
-        for link in links:
+        for link in tqdm(links):
             self.utils.driver.get(link.strip())
             time.sleep(2)
             data = {
