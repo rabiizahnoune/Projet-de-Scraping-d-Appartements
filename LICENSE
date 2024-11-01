@@ -1,0 +1,42 @@
+Licence MIT
+
+Copyright (c) 2024 Rabii Zahoune
+
+Permission est par la présente accordée, gratuitement, à toute personne obtenant une copie
+de ce logiciel et des fichiers de documentation associés (le "Logiciel"), de traiter
+dans le Logiciel sans restriction, y compris sans limitation les droits
+d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier, et/ou de vendre
+des copies du Logiciel, et de permettre aux personnes à qui le Logiciel est
+fourni de le faire, sous réserve des conditions suivantes :
+
+1. *Politique de Confidentialité* :
+   - L'utilisateur doit s'assurer que toutes les données collectées par le biais de ce logiciel respectent les exigences de la Loi 09-08 et du RGPD, en incluant une politique de confidentialité détaillée. Cette politique doit expliquer la finalité de la collecte, la portée de la collecte, et la transparence des traitements de données.
+
+2. *Impact sur la Vie Privée* :
+   - Une analyse des risques potentiels de la collecte de données doit être réalisée pour anticiper les impacts sur la vie privée des individus concernés. Les utilisateurs doivent identifier les risques et mettre en place des mesures d'atténuation appropriées, comme l'anonymisation des données.
+
+3. *Consentement et Recours* :
+   - Les utilisateurs doivent obtenir le consentement préalable de toute personne dont les données sont collectées à des fins spécifiques non autorisées. Ils doivent également permettre aux utilisateurs ou à Avito.ma de demander la suppression ou l'anonymisation de données spécifiques.
+
+4. *Minimisation des données* :
+   - Ne collecter que les informations strictement nécessaires au projet (par exemple, pas de métadonnées inutiles ou d'informations supplémentaires).
+
+5. *Sécurisation des données* :
+   - Les données collectées doivent être stockées de manière sécurisée (par exemple, en utilisant des fichiers CSV protégés ou des bases de données sécurisées).
+
+6. *Droit à l’effacement* :
+   - S'assurer que les données peuvent être supprimées à la demande d'Avito.ma ou des individus concernés si des informations personnelles sont collectées accidentellement.
+
+7. *Documentation* :
+   - Tenir un registre de l’activité de scraping, décrivant le type de données collectées, leur usage, et les mesures prises pour garantir leur conformité avec le RGPD.
+
+8. *Responsabilité* :
+   - Le logiciel est fourni "tel quel", sans garantie d'aucune sorte, expresse ou implicite. En aucun cas les auteurs ou titulaires de droits d'auteur ne pourront être tenus responsables de dommages ou autres responsabilités, qu'elles soient dans une action de contrat, de délit ou autre, découlant de l'utilisation du logiciel ou de l'impossibilité d'utiliser le logiciel.
+
+LE LOGICIEL EST FOURNI "EN L'ÉTAT", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU
+IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, LES GARANTIES DE COMMERCIALISATION,
+D'APTITUDE À UN USAGE PARTICULIER ET DE NON-CONTREFAÇON. EN AUCUN CAS LES
+AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SERONT RESPONSABLES DE QUELQUE DEMANDE, DOMMAGES OU AUTRES
+RESPONSABILITÉS, QUE CE SOIT DANS UNE ACTION DE CONTRAT, DE DÉLIT OU AUTRE, DÉCOULANT DE,
+OU EN LIEN AVEC LE LOGICIEL OU L'UTILISATION OU AUTRES TRAITEMENTS DANS LE
+LOGICIEL.
