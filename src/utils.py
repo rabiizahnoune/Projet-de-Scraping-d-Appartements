@@ -12,20 +12,23 @@ class WebScraperUtils:
 
     def _create_driver_with_proxy(self):
         # Liste de proxies
-        # proxies = [
+        proxies = [
                   
-        #           "143.198.242.86:8080"
+                  "23.236.170.186:9219"
+                   "77.83.233.163:6781"
+                    "64.137.31.38:6652"
+        
     
     
-        #         ]
+                ]
         # Sélectionner un proxy et un User-Agent aléatoires
-        # proxy = random.choice(proxies)
-        # user_agent = UserAgent().random
+        proxy = random.choice(proxies)
+        user_agent = UserAgent().random
 
         # Configurer les options du navigateur
-        # options = webdriver.ChromeOptions()
-        # options.add_argument(f'--proxy-server={proxy}')
-        # options.add_argument(f'user-agent={user_agent}')
+        options = webdriver.ChromeOptions()
+        options.add_argument(f'--proxy-server={proxy}')
+        options.add_argument(f'user-agent={user_agent}')
         
         # Initialiser le driver avec les options
         return webdriver.Chrome()
